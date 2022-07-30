@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{06584C28-3391-1180-3D1E-84EB0C97FAF0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/PlayerHealth.cs">
+    <Files>
+      <File FileName="Assets/Script/PlayerHealth.cs" Line="48" Column="1" IsPinned="True" />
+      <File FileName="Assets/Script/LevelComplete.cs" />
+      <File FileName="Assets/Script/EnemyTurret.cs" />
+      <File FileName="Assets/Script/Enemy.cs" />
+      <File FileName="Assets/Script/Weapon.cs" />
+      <File FileName="Assets/Script/CharacterController2D.cs" />
+      <File FileName="Assets/Script/PlayerMovement.cs" />
+      <File FileName="Assets/Script/Patrol.cs" />
+      <File FileName="Assets/Script/EnemyWeapon.cs" />
+      <File FileName="Assets/Script/Bullet.cs" />
+      <File FileName="Assets/Script/EnemyBullet.cs" />
+      <File FileName="Assets/Script/MechEnemy.cs" />
+      <File FileName="Assets/Script/MechBoss.cs" />
+      <File FileName="Assets/Script/BossTurret.cs" />
+      <File FileName="Assets/Script/ParallaxEffect.cs" />
+      <File FileName="Assets/MainMenuHandler.cs" Line="10" Column="65" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Wrap City" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Script" expanded="True">
+                <Node name="PlayerHealth.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cd3e2960-b9b1-4826-9875-f949fec7e5d8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
