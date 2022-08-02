@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
     public Animator fireANI;
+    public AudioSource shootSFX;
 
     // Update is called once per frame
     void Update()
@@ -25,6 +26,7 @@ public class Weapon : MonoBehaviour
 
     public void Shoot()
     {
+        shootSFX.Play();
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

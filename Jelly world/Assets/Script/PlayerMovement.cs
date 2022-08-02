@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     public float runSpeed = 40f;
     bool isJump = false;
     public Animator playerANI;
+    public AudioSource jumpSFX;
+    
+   
     //bool isCrouch = false;
 
     // Start is called before the first frame update
@@ -26,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetButtonDown("Jump"))
         {
             isJump = true;
+            jumpSFX.Play();
+          
             playerANI.SetBool("isJumping", true);
         }
 
